@@ -24,14 +24,14 @@ You've now installed Flask, a microframework that you'll use for the simple web 
 
 ## Set up the Flask app
 
-To configure the Flask app location, set up an environment variable with the name of your application (say, api.py file):
+Run the command below to set the Flask app location to the name of your application file, for example, test-page.py.
 
 ```
-export FLASK_APP=api.py
+export FLASK_APP=test-page.py
 ```
 
 
-In this `api.py` file, create the simple Flask setup like the following:
+Create your application file, test-page.py with the following code:
 
 
 ```
@@ -68,7 +68,7 @@ query Page {
 ```
 
 
-Now, you're ready to authenticate your app. Open the api.py, and your project is now like the following:
+Now, you're ready to authenticate your app. Open the test-page.py, and your project is now like the following:
 
 ```python
 import requests
